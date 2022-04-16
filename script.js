@@ -32,7 +32,6 @@ function cellClicked(){
     }
 
     updateCell(this, cellIndex);
-    //changePlayer();
     checkWinner();
 }
 function updateCell(cell, index){
